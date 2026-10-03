@@ -1,0 +1,19 @@
+# Python virtual environment
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+
+# Azure Functions local settings — NEVER commit this, it contains secrets
+local.settings.json
+
+# Pytest
+.pytest_cache/
+*.egg-info/
+
+# VS Code
+.vscode/
+
+# Iceberg local catalog (used in local dev only)
+*.db
+/tmp/

@@ -1,0 +1,13 @@
+version: 2
+
+sources:
+  - name: raw
+    database: HAZARDWATCH_DB
+    schema: RAW_SCHEMA
+    tables:
+      - name: landing_usgs
+      - name: landing_gdacs
+      - name: landing_firms
+      - name: landing_openaq
+      - name: landing_eonet
+      - name: landing_worldpop

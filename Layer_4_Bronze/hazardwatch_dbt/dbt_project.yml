@@ -1,0 +1,18 @@
+name: 'hazardwatch'
+version: '1.0.0'
+profile: 'hazardwatch_snowflake'
+
+models:
+  hazardwatch:
+    bronze:
+      +materialized: incremental
+      +schema: BRONZE_SCHEMA
+    silver:
+      +materialized: incremental
+      +schema: SILVER_SCHEMA
+    gold:
+      +materialized: table
+      +schema: GOLD_SCHEMA
+
+vars:
+  incremental_lookback_hours: 6

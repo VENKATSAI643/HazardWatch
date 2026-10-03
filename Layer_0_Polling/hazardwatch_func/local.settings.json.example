@@ -1,0 +1,14 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "UseDevelopmentStorage=true",
+    "FUNCTIONS_WORKER_RUNTIME": "python",
+    "ADLS_CONNECTION_STRING": "DefaultEndpointsProtocol=https;AccountName=hazardwatchraw;AccountKey=YOUR_KEY_HERE;EndpointSuffix=core.windows.net",
+    "ADLS_ACCOUNT_NAME": "hazardwatchraw",
+    "ADLS_CONTAINER_NAME": "raw",
+    "FIRMS_MAP_KEY": "YOUR_FIRMS_MAP_KEY_HERE",
+    "OPENAQ_API_KEY": "YOUR_OPENAQ_API_KEY_HERE",
+    "FIRMS_BBOX": "68,6,98,37",
+    "ICEBERG_CATALOG_URI": "sqlite:///tmp/hazardwatch_iceberg.db"
+  }
+}

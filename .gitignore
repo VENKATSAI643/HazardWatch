@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+*.egg-info/
+venv/
+.venv/
+venv*/
+
+# Environment Variables & Secrets
+.env
+local.settings.json
+*.pem
+*.key
+
+# VS Code & IDEs
+.vscode/
+.idea/
+.DS_Store
+
+# Iceberg local dev
+*.db
+/tmp/
+
+# dbt
+Layer_4_Bronze/hazardwatch_dbt/target/
+Layer_4_Bronze/hazardwatch_dbt/dbt_packages/
+Layer_4_Bronze/hazardwatch_dbt/logs/
+Layer_4_Bronze/hazardwatch_dbt/dbt_modules/
+target/
+dbt_packages/
+logs/
+dbt_modules/
+
+# Superset
+superset.db
+.superset/
+superset_home/
+superset_config.py
+superset/
